@@ -1,0 +1,21 @@
+{
+  "name": "101247932_labtest1_chatApp",
+  "version": "1.0.0",
+  "description": "Chat App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Vraj Soni",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongoose": "^6.2.1",
+    "socket.io": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
